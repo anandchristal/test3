@@ -1,0 +1,63 @@
+
+> react-boilerplate@3.4.0 prebuild /Users/anand/Documents/localgit/react-boilerplate
+> npm run build:clean
+
+
+> react-boilerplate@3.4.0 build:clean /Users/anand/Documents/localgit/react-boilerplate
+> npm run test:clean && rimraf ./build
+
+
+> react-boilerplate@3.4.0 test:clean /Users/anand/Documents/localgit/react-boilerplate
+> rimraf ./coverage
+
+
+> react-boilerplate@3.4.0 build /Users/anand/Documents/localgit/react-boilerplate
+> cross-env NODE_ENV=production webpack --config internals/webpack/webpack.prod.babel.js --color -p --progress
+
+Hash: [1m7b70ea94181a0c6ce957[39m[22m
+Version: webpack [1m2.2.0-rc.3[39m[22m
+Time: [1m23376[39m[22mms
+                               [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+     [1m[32m3.5c031638b91ed5b23616.chunk.js[39m[22m    41.4 kB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         
+[1m[33mf3b26cc54fe4588671576d6b115a2a1d.jpg[39m[22m    [1m[33m1.08 MB[39m[22m        [1m[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  
+                         [1m[32mfavicon.ico[39m[22m     370 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                       [1m[32mmanifest.json[39m[22m  624 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+     [1m[32m0.8b6767904cb5804e1150.chunk.js[39m[22m    20.6 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         
+     [1m[32m1.5d932fc6fd9e00c1f576.chunk.js[39m[22m      35 kB       [1m1[39m[22m  [1m[32m[emitted][39m[22m         
+     [1m[32m2.e5fb5153ef787107f0f5.chunk.js[39m[22m     7.4 kB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         
+                           [1m[32m.htaccess[39m[22m    1.79 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+     [1m[32m4.be42ff283614878de784.chunk.js[39m[22m    1.46 kB       [1m4[39m[22m  [1m[32m[emitted][39m[22m         
+     [1m[32m5.eca9e7f6fc5dfb0624e7.chunk.js[39m[22m  617 bytes       [1m5[39m[22m  [1m[32m[emitted][39m[22m         
+     [1m[32m6.3f552873be2a7815cc20.chunk.js[39m[22m    24.1 kB       [1m6[39m[22m  [1m[32m[emitted][39m[22m         
+     [1m[32m7.72f8c829811afedd278d.chunk.js[39m[22m    24.4 kB       [1m7[39m[22m  [1m[32m[emitted][39m[22m         
+        [1m[32mmain.381990a9d37f43b01df7.js[39m[22m     704 kB       [1m8[39m[22m  [1m[32m[emitted][39m[22m         main
+                          [1m[32mindex.html[39m[22m  646 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                               [1m[32msw.js[39m[22m    16.4 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[./app/app.js] [1m./app/app.js[39m[22m 4.93 kB {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./app/containers/App/selectors.js] [1m./app/containers/App/selectors.js[39m[22m 1.39 kB {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./app/routes.js] [1m./app/routes.js[39m[22m 2.55 kB {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./app/store.js] [1m./app/store.js[39m[22m 2.12 kB {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/babel-polyfill/lib/index.js] [1m./~/babel-polyfill/lib/index.js[39m[22m 833 bytes {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/file-loader/index.js?name=[name].[ext]!./app/.htaccess] [1m./~/file-loader?name=[name].[ext]!./app/.htaccess[39m[22m 55 bytes {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/file-loader/index.js?name=[name].[ext]!./app/favicon.ico] [1m./~/file-loader?name=[name].[ext]!./app/favicon.ico[39m[22m 57 bytes {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/file-loader/index.js?name=[name].[ext]!./app/manifest.json] [1m./~/file-loader?name=[name].[ext]!./app/manifest.json[39m[22m 59 bytes {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/fontfaceobserver/fontfaceobserver.standalone.js] [1m./~/fontfaceobserver/fontfaceobserver.standalone.js[39m[22m 4.1 kB {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/intl/locale-data/jsonp/de.js] [1m./~/intl/locale-data/jsonp/de.js[39m[22m 24.3 kB {[1m[33m7[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/intl/locale-data/jsonp/en.js] [1m./~/intl/locale-data/jsonp/en.js[39m[22m 24 kB {[1m[33m6[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/offline-plugin/runtime.js] [1m./~/offline-plugin/runtime.js[39m[22m 719 bytes {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+   [1] [1mmulti main[39m[22m 28 bytes {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/react-redux/lib/index.js] [1m./~/react-redux/lib/index.js[39m[22m 475 bytes {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/react-router-redux/lib/index.js] [1m./~/react-router-redux/lib/index.js[39m[22m 1.97 kB {[1m[33m8[39m[22m}[1m[32m [built][39m[22m
+    + 745 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (250 kB). 
+This can impact web performance.
+Assets: 
+  f3b26cc54fe4588671576d6b115a2a1d.jpg (1.08 MB)[39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+    [./node_modules/html-webpack-plugin/lib/loader.js!./app/index.html] [1m./~/html-webpack-plugin/lib/loader.js!./app/index.html[39m[22m 591 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+Child [1m__offline_serviceworker[39m[22m:
+    [./node_modules/exports-loader/index.js?self.fetch!./node_modules/whatwg-fetch/fetch.js] [1m./~/exports-loader?self.fetch!./~/whatwg-fetch/fetch.js[39m[22m 12.6 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    [./node_modules/offline-plugin/empty-entry.js] [1m./~/offline-plugin/empty-entry.js[39m[22m 0 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    [./node_modules/offline-plugin/lib/misc/sw-loader.js?json=%7B%22data_var_name%22%3A%22__wpo%22%2C%22loaders%22%3A%5B%5D%2C%22cacheMaps%22%3A%5B%5D%7D!./node_modules/offline-plugin/empty-entry.js] [1m./~/offline-plugin/lib/misc/sw-loader.js?json=%7B%22data_var_name%22%3A%22__wpo%22%2C%22loaders%22%3A%5B%5D%2C%22cacheMaps%22%3A%5B%5D%7D!./~/offline-plugin/empty-entry.js[39m[22m 16.2 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[1mWebpack Bundle Analyzer[22m saved report to [1m/Users/anand/Documents/localgit/react-boilerplate/build/report.html[22m
